@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.ruleta-container {
+    margin: 20px auto;
+    position: relative;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+canvas {
+    border: 2px solid #000;
+    border-radius: 50%;
+}
